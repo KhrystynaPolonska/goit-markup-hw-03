@@ -27,9 +27,6 @@ button {
 	cursor: pointer;
 	font-family: "Roboto";
 }
-img {
-	display: block;
-}
 .container {
 	width: 1158px; /* 1128 +15 + 15 */
 	display: flex;
@@ -37,6 +34,8 @@ img {
 	padding: 0 15px;
 }
 .header-container {
+width: 1158px;
+padding: 0 15px;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -47,6 +46,8 @@ img {
  gap: 40px;
  justify-content: space-between;
  align-items: center;
+padding: 24px 0;
+display: block;
 }
 .logo {
 	font-family: "Raleway", sans-serif;
@@ -130,6 +131,11 @@ color: #404bbf;
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
+
+img {
+display: block;
+}
+
 .hero {
 background-color: #2E2F42;
 padding: 188px 0;
