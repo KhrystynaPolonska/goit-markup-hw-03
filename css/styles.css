@@ -27,7 +27,10 @@ button {
 	cursor: pointer;
 	font-family: "Roboto";
 }
-.container-h {
+img {
+	display: block;
+}
+.container {
 	width: 1158px; /* 1128 +15 + 15 */
 	display: flex;
 	margin: 0 auto;
@@ -55,7 +58,6 @@ button {
 	color: #4d5ae5;
 	margin-right: 76px;
 	padding: 24px 0;
-	
 }
 .logo-style {
 	color: #2e2f42;
@@ -68,7 +70,7 @@ gap: 40px;
 padding: 24px 0;
 }
 .header-nav-item {
-	
+	padding: 24px 0;
 }
 
 .item-nav-link {
@@ -81,6 +83,7 @@ color: #2e2f42;
  padding-right: 15px;
  display: inline-block;
  margin-bottom: 8px;
+ padding: 24px 0;
 }
 .item-nav-link:hover,
 .item-nav-link:focus {
@@ -88,7 +91,7 @@ color: #404bbf;
 }
 
 .address {
-font-style: normal;
+ font-style: normal;
 }
 .addr-list {
  justify-content: space-between;
@@ -104,6 +107,7 @@ font-style: normal;
 }
 .addr-link {
 font-size: 16px;
+font-style: normal;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
@@ -220,7 +224,7 @@ margin-bottom: 8px;
 	padding: 120px 0;
 
 }
-.team-container {
+.container {
 padding: 32px 0;
 text-align: center;
 margin-bottom: 8px;
@@ -279,7 +283,7 @@ display: flex;
 padding-top: 120px;
 padding-bottom: 120px;
 }
-.container-portfolio {
+.container {
  border: 1px solid #E7E9FC;
  padding: 32px 16px;
  border-top: none;
@@ -317,6 +321,7 @@ height: 300px;
 	border: 1px solid #E7E9FC;
 	padding: 32px 16px;
 	border-top: none;
+
 }
 .portf-item-title {
 	font-weight: 500;
