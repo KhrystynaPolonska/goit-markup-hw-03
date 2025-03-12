@@ -36,11 +36,11 @@ button {
 .header-container {
 width: 1158px;
 padding: 0 15px;
+margin: 0 auto;
  display: flex;
  justify-content: space-between;
  align-items: center;
 }
-
 .nav-header {
  display: flex;
  gap: 40px;
@@ -364,6 +364,7 @@ margin-bottom: 8px;
 
 .footer-logo-style {
 	color: #f4f4fd;
+	display: inline-block;
 }
 
 .footer-item-text {
